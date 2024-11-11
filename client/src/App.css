@@ -1,0 +1,223 @@
+
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sign-up-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 480px) {
+  .sign-up-container {
+    padding: 20px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+
+/* Home css */
+
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #4299e1, #9f7aea);
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.main-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-wrapper {
+  max-width: 1120px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.content-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .content-flex {
+    flex-direction: row;
+  }
+}
+
+.text-section {
+  width: 100%;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .text-section {
+    width: 50%;
+  }
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+.subtitle {
+  margin-top: 16px;
+  font-size: 1.125rem;
+  color: #e2e8f0;
+}
+
+@media (min-width: 768px) {
+  .subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+.image-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+@media (min-width: 768px) {
+  .image-section {
+    width: 50%;
+    margin-top: 0;
+    justify-content: flex-end;
+  }
+}
+
+.illustration {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* header css */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #8252eb;
+  color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+}
+
+.header-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.header-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.header-button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header-button:hover {
+  background-color: #c930ef;
+}
