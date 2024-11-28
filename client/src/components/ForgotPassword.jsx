@@ -24,20 +24,22 @@ const ForgotPassword = () => {
       });
   };
   return (
-    <div className="sign-up-container">
-      <form className="sign-up-form" onSubmit={handleSubmit}>
-        <h2>Forgot Password</h2>
+    <div className="center-wrapper">
+      <div className="sign-up-container">
+        <form className="sign-up-form" onSubmit={handleSubmit}>
+          <h2>Forgot Password</h2>
 
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          autoComplete="off"
-          placeholder="Email"
-          onChange={(e) => setEmail(e.target.value)}
-        />
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            autoComplete="off"
+            placeholder="Email"
+            onChange={(e) => setEmail(e.target.value)}
+          />
 
-        <button type="submit">Send</button>
-      </form>
+          <button type="submit">Send</button>
+        </form>
+      </div>
     </div>
   );
 };
