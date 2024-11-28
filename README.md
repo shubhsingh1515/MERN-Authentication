@@ -3,7 +3,7 @@
 A secure authentication system built using the MERN stack, enabling users to register, log in, and reset their passwords. The application uses JWT for authentication and implements email-based password recovery.
 
 <p align="center">
-  <img src="client/public/img2.jpg" alt="Authentication System" />
+  <img src="client/public/img2.png" alt="Authentication System" />
 </p>
 
 ## Features
